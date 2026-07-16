@@ -1,32 +1,75 @@
 .navbar-container {
-    display:flex;
-    justify-content: space-between;
-    /* border: 2px solid red; */
-    align-items: center;
- 
-    margin: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  align-items: center;
 
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.menu ul{
-    display: flex;
-    gap:20px;
-    list-style: none;
+.menu ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
 }
 
-.menu ul li{
-    color: #575757;
-    font-family: Arial, Helvetica, sans-serif;
+.menu ul li {
+  color: #575757;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.reg-btn button{
- padding: 10px;
- width: 150px;
- background-color: #1D4ED8;
- color: #FFFFFF;
- border-radius: 5px;
- border: none;
+.reg-btn button {
+  padding: 10px;
+  width: 150px;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
 
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* align-items: center; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(/img/banner.jpg);
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header,
+h1,
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+  font-size: 5rem;
+}
+header p {
+  font-size: 1.5rem;
+}
+
+.title {
+  margin-top: 150px;
+}
+.header-btn {
+  margin-top: 350px;
+}
+.header-btn button {
+  padding: 10px;
+  width: 180px;
+  height: 50px;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
 }
