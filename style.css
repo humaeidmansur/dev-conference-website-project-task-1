@@ -1,3 +1,9 @@
+/* Navbar */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -42,7 +48,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
+/* Background Cover */
 header,
 h1,
 p {
@@ -72,4 +78,33 @@ header p {
   border: none;
   font-size: 1rem;
   font-weight: 600;
+}
+/* SPEAKERS MEETING */
+
+
+.speaker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+
+}
+
+.card-container {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  width: 1340px;
+}
+
+.CARD-1,
+.CARD-2,
+.CARD-3,
+.CARD-4 {
+  /* border: 2px solid green; */
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 640px;
 }
